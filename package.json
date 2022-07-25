@@ -1,4 +1,12 @@
 {
+  "name": "fazenda-eletronica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./API/index.js",
+  "scripts": {
+    "start": "node API/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "body-parser": "^1.20.0",
     "cors": "^2.8.5",
