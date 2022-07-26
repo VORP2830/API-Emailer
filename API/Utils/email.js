@@ -13,7 +13,7 @@ require('dotenv').config()
     
     function EnviarEmail(destinatario, tituloemail, textoemail){
         const emailenviado = {
-            from: `Fazenda Eletrônica ${process.env.HOST_EMAIL}`,
+            from: `Emailer ${process.env.HOST_EMAIL}`,
             to: destinatario,
             subject: tituloemail,
             html: textoemail
